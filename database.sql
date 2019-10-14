@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS mysql_tutorial;
+USE mysql_tutorial;
+CREATE TABLE person(
+	id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	first_name VARCHAR(255) NOT NULL,
+	last_name VARCHAR(255) NOT NULL,
+	gender CHAR NOT NULL,
+	PRIMARY KEY(id)
+);
